@@ -8,6 +8,9 @@
   </div>
     {% endif %}
   {% endif %}
+  {% if page.metafields.Text.acf_text %}
+    <p>{{page.metafields.Text.acf_text}}</p>
+  {% endif %}
   <div class="content">
     {{ page.content }}
   </div>
