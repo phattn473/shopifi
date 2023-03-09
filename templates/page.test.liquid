@@ -1,7 +1,7 @@
 <main>
   <h1>{{ page.title }}</h1>
   {% if page.metafields.bannes.acf_bn %}
-    {% if page.metafields.Checkbox.acf_cb %}}
+    {% if page.metafields.Checkbox.acf_cb == checked %}}
   <div>
     <img src="{{ page.metafields.bannes.acf_bn }}">
   </div>
