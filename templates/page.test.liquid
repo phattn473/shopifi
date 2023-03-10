@@ -6,6 +6,7 @@
   <div>
     <img src="{{ page.metafields.bannes.acf_bn }}">
   </div>
+  {{ video }}
     {% endif %}
   {% endif %}
   {% if page.metafields.Text.acf_text %}
@@ -15,3 +16,8 @@
     {{ page.content }}
   </div>
 </main>
+{
+  "type": "video",
+  "id": "video",
+  "label": "A Shopify-hosted video"
+}
